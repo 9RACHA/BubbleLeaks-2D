@@ -11,3 +11,9 @@ Mientras salte, Mario deberá ejecutar la animacion Jumping.
 
 Las animaciones de Mario y el Animator que permite gestionarlas y cambiar de una a otra ya estan creadas y se suministran en el proyecto. Para realizar el ejercicio se deberan controlar las transiciones entre estados del Animator usando sus parametros de tipo bool walking y jumping.
 Mario incluye un script Mario.cs que contiene una funcion IsGrounded() que testea si Mario esta en el suelo mediante un Raycast.Esta funcion sigue detectando que Mario esta en el suelo en los primeros frames de un salto.
+
+## Espaneo de burbujas
+Debera crearse un prefab para las burbujas, Bubble.
+Deberá crearse un GameManager que se encargara, entre otras cosas de espanear burbujas.
+
+El espaneo se realizara desde una corrutina que cada 0.1f segundos se dicidira espanear una burbuja con una probabilidad del 4%. En caso de decidir espanear una burbuja, el punto de espaneo se elegira al azar en un rectangulo entre las coordenadas horizontales -4f y 4f y entre las coordenadas verticales -1f y 3f.
