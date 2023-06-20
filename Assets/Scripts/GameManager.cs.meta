@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7dd5048618316e14b8c6b96a6305b0d1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bubbleDestroyedSound: {fileID: 8300000, guid: 066adeaf5a48df144a4e7acdcf0ffd29, type: 3}
+  - bubbleCollisionSound: {fileID: 8300000, guid: 19b0001ce7f317b49a161f79e429c20c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
